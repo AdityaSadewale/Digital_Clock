@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Digital Clock & Task Scheduler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+    <div class="top-bar">
+        <h2>🕒 Smart Clock</h2>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <div class="time">
+        <span id="hours">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="ampm">AM</span>
+    </div>
+
+    <div class="date" id="date"></div>
+
+    <div class="task-box">
+        <h3>Task Scheduler</h3>
+        <input type="text" id="taskText" placeholder="Task name">
+        <input type="time" id="taskTime">
+        <button id="addTask">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+</div>
+
+<audio id="alarmSound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
