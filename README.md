@@ -51,5 +51,3 @@ Contributions are welcome!
 Feel free to improve the design or add new features 🚀
 
 📜 License
-
-This project is open-source and free to use 😊
