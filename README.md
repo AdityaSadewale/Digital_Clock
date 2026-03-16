@@ -50,4 +50,3 @@ This project helps beginners understand:
 Contributions are welcome!
 Feel free to improve the design or add new features 🚀
 
-📜 License
